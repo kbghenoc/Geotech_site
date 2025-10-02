@@ -36,7 +36,7 @@ h6 {
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
-/* #preloader {
+#preloader {
   position: fixed;
   top: 0;
   left: 0;
@@ -45,9 +45,9 @@ h6 {
   z-index: 9999;
   overflow: hidden;
   background: #fff;
-} */
+}
 
-/* #preloader:before {
+#preloader:before {
   content: "";
   position: fixed;
   top: calc(50% - 30px);
@@ -58,8 +58,8 @@ h6 {
   width: 60px;
   height: 60px;
   animation: animate-preloader 1s linear infinite;
-} */
-/* 
+}
+
 @keyframes animate-preloader {
   0% {
     transform: rotate(0deg);
@@ -68,7 +68,7 @@ h6 {
   100% {
     transform: rotate(360deg);
   }
-} */
+}
 
 /*--------------------------------------------------------------
 # Back to top button
